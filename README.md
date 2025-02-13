@@ -5,6 +5,8 @@ This is a simple, static website created to demonstrate my skills in HTML and CS
 ## Live Preview  
 Explore the website here: [My Website](https://sooma-hey.github.io/webproject/)
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-green)](https://sooma-hey.github.io/webproject/)
+
 
 ## Pages
 
