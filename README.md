@@ -43,7 +43,7 @@ The project uses an external CSS file (`style.css`) to define the layout, colors
 ## ERD (Entity Relationship Diagram)
 Below is the ERD for the website’s database, showing how users, services, and transactions are related.
 
-![ERD Diagram](path_to_your_erd_image_file.png)  <!-- Replace with your ERD image file -->
+![ERD Diagram](ERD.png)  <!-- Replace with your ERD image file -->
 
 ## DFD (Data Flow Diagram)
 
