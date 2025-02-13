@@ -50,12 +50,12 @@ Below is the ERD for the website’s database, showing how users, services, and 
 ### Level 0
 Here is the DFD Level 0, which provides an overview of the data flow in the system.
 
-![DFD Level 0](path_to_your_dfd_level_0_image_file.png)  <!-- Replace with your DFD Level 0 image file -->
+![DFD Level 0](DFD0.jpg)  <!-- Replace with your DFD Level 0 image file -->
 
 ### Level 1
 The DFD Level 1 shows the detailed flow of data within the main modules of the website: Banking, Telecommunications, and Police Services.
 
-![DFD Level 1](path_to_your_dfd_level_1_image_file.png)  <!-- Replace with your DFD Level 1 image file -->
+![DFD Level 1](DFD1.jpg)  <!-- Replace with your DFD Level 1 image file -->
 
 ## Glossary
 - **Users**: The individuals who use the services provided by the website. They can register, log in, and use the services.
