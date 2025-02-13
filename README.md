@@ -1,6 +1,6 @@
 # Static Website - Personal Coding Showcase
 
-This is a simple, static website created to demonstrate my skills in HTML and CSS. The project includes a homepage and a couple of service pages, along with a **Sign-Up** and **Login** page for user authentication. It showcases basic web features such as navigation, forms, and layout design. It is built with the goal of demonstrating my ability to structure a web page, implement responsive design, and use forms effectively.
+This is a simple, static website created to demonstrate my skills in HTML and CSS. The project includes a homepage and a couple of service pages, along with a Sign-Up and Login page for user authentication. It showcases basic web features such as navigation, forms, and layout design. 
 
 ## Pages
 
@@ -41,11 +41,12 @@ The project uses an external CSS file (`style.css`) to define the layout, colors
 - CSS3
 
 ## ERD (Entity Relationship Diagram)
-Below is the ERD for the website’s database, showing how users, services, and transactions are related.
+I have worked on this diagram to illustrate how the system operates in reality and how it can be integrated with a database and APIs. The ERD showcases the relationships between users, services, and transactions.
 
 ![ERD Diagram](ERD.png)  <!-- Replace with your ERD image file -->
 
 ## DFD (Data Flow Diagram)
+I have created the following DFDs to visualize the data flow within the system and how it connects with external components like databases and APIs.
 
 ### Level 0
 Here is the DFD Level 0, which provides an overview of the data flow in the system.
@@ -58,7 +59,7 @@ The DFD Level 1 shows the detailed flow of data within the main modules of the w
 ![DFD Level 1](DFD1.jpg)  <!-- Replace with your DFD Level 1 image file -->
 
 ## Glossary
-- **Users**: The individuals who use the services provided by the website. They can register, log in, and use the services.
+- **Clients**: The individuals who use the services provided by the website. They can register, log in, and use the services.
 - **Services**: The different offerings available on the website, including banking, telecommunication, and police services.
 - **Transactions**: The actions where users perform payments, recharge, or pay fines.
 
