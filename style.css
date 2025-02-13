@@ -1,0 +1,454 @@
+
+/*add font*/
+@font-face {
+    font-family: vazir;
+    src: url("font/Vazir-Regular.eot");
+    src: url("font/Vazir-Regular.woff") format("woff");
+}
+
+body {
+    font-family: 'vazir';
+}
+
+/* for fix size*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*include every part of navbar*/
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 45px;
+    font-family: 'vazir';
+    background: white;
+    box-shadow: 1px 1px 10px gray;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+/*account navbar design*/
+.hesab {
+    color: black;
+    text-decoration: none;
+    font: 'vazir' 24px bold;
+    text-shadow: 1px 1px 1px gray;
+}
+.hesab:hover {
+    text-shadow: 1px 1px 4px black;
+}
+.hesab:active {
+    text-shadow: 1px 1px 2px black;
+}
+
+/*navbar design for pc*/
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    padding: 5px 20px;
+}
+.list {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row-reverse;
+}
+.list a {
+    font: 'vazir' 24px bold;
+    padding: 5px 20px;
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
+    text-shadow: 1px 1px 1px gray;
+}
+
+/*dropdown navbar design for mobile*/
+.drop {
+    display: none;
+    position: relative;
+}
+.drop-icon {
+    display: none;
+    position: absolute;
+    right: 0;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 1px 1px 10px gray;
+}
+.drop-icon a {
+    display: block;
+    background-color: white;
+    width: 100%;
+    direction: rtl;
+    padding: 10px;
+}
+
+/*search part*/
+.search-input {
+    height: 30px;
+    background: white;
+    border: 1px solid white;
+    border-left: none;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px black;
+}
+.search-button {
+    font-family: 'vazir';
+    height: 30px;
+    background: white;
+    border: 1px solid white;
+    color: black;
+    position: relative;
+    left: 5px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px black;
+}
+.search-button:hover {
+    box-shadow: 1px 1px 6px black;
+}
+.search-button:active {
+    box-shadow: 1px 1px 10px black;
+}
+
+/*footer design*/
+.foot {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    top: 0;
+    height: 60px;
+    box-shadow: 1px 1px 3px black;
+}
+
+/*font design for some parts of web*/
+.pfont {
+    font-family: vazir;
+    font-size: 18px;
+    color: black;
+    text-shadow: 1px 1px 1px gray;
+}
+
+
+/*site header photo*/
+.div1 {
+    height: 350px;
+    justify-content: right;
+    box-shadow: 1px 1px 10px black;
+    background: url(photo/back.png);
+    background-size: 1500px;
+}
+
+/*service background in the main page*/
+#div{
+    background: url(photo/back7.jpg) no-repeat left bottom;
+    background-size: 400px;
+}
+
+
+/*advertise & introduce text*/
+.pre {
+    font-size: 28px;
+    float: left;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+/* design holder box for every services (in main page & Simcard & car & login & sign) */
+.service {
+    width: 1300px;
+    padding: 50px;
+    height: 650px;
+    margin: 30px auto;
+    box-shadow: 6px 13px 21px 14px rgba(176, 179, 166, 0.48);
+    -webkit-box-shadow: 6px 13px 21px 14px rgba(176, 179, 166, 0.48);
+    -moz-box-shadow: 6px 13px 21px 14px rgba(176, 179, 166, 0.48);
+}
+
+/*hold tow services in main page*/
+.cards {
+    float: right;
+    width: 50%;
+    height: 80%;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+/*design single card of services in main page*/
+.card {
+    font-size: 24px;
+    width: 240px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+    margin: 80px 5px;
+    float: left;
+}
+.card:hover {
+    box-shadow: 1px 1px 15px black;
+}
+.card-image {
+    display: block;
+    max-width: 100%;
+    height: 80%;
+}
+/*card subtext*/
+.subtext {
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+/*design car page inputs, form and text*/
+.car {
+    height: 400px;
+    direction: rtl;
+    background: url(photo/car.png) no-repeat left bottom;
+    background-size: 50%;
+}
+.car form {
+    float: right;
+    width: 40%;
+}
+.car p {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+/*simcard page*/
+.sim {
+    background: white url(photo/sim3.jpg) no-repeat left bottom;
+}
+
+/*forms in car & sim pages*/
+.input-form {
+    float: left;
+    width: 150px;
+    border: white solid 1px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 6px black;
+    height: 30px;
+}
+
+/*submit button in whole forms*/
+.button-est {
+    width: 150px;
+    margin: 15px;
+    padding: 5px 10px;
+    background-color: white;
+    text-align: center;
+    border: white solid 1px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px black;
+}
+.button-est:hover {
+    box-shadow: 1px 1px 10px black;
+}
+.button-est:active {
+    box-shadow: 1px 1px 3px black;
+}
+
+
+/*service topic in main page*/
+#topic {
+    position: absolute;
+    width: 500px;
+    text-align: center;
+}
+
+/*the content of main page include photo and text*/
+.content {
+    width: 1200px;
+    margin: 40px auto;
+    height: auto;
+    font: 20px black;
+    text-align: right;
+    padding: 80px;
+    line-height: 2.3;
+    direction: rtl;
+    text-shadow: 1px 1px 1px gray;
+    box-shadow: 6px 13px 21px 14px rgba(176, 179, 166, 0.48);
+    -webkit-box-shadow: 6px 13px 21px 14px rgba(176, 179, 166, 0.48);
+    -moz-box-shadow: 6px 13px 21px 14px rgba(176, 179, 166, 0.48);
+}
+#con img {
+    float: left;
+    max-width: 800px;
+    height: auto;
+}
+
+
+/*login and sign forms include inputs & icons*/
+.svg-icon {
+    height: 22px;
+    margin: 0 5px -4px;
+}
+.login-div {
+    padding: 40px 20px;
+    direction: rtl;
+    height: auto;
+    width: 370px;
+    position: relative;
+}
+.login-div input {
+    height: 30px;
+    font-family: vazir;
+    width: 60%;
+    border: none;
+    padding: 10px 10px 10px 5px;
+    margin: 10px;
+    border: solid 1px white;
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px black;
+}
+
+/*sign / login switch*/
+.link a {
+    float: left;
+    width: 40%;
+}
+
+
+/*media query for tablets and screen with max-with = 992*/
+@media screen and (max-width: 992px) {
+    .list {
+        display: none;
+    }
+    .drop {
+        display: block;
+    }
+    .drop img {
+        cursor: pointer;
+    }
+    .drop:hover .drop-icon {
+        display: block;
+    }
+    #div{
+        background: url(photo/back7mo.jpg) no-repeat left bottom;
+        background-size: 250px;
+    }
+    .div1 {
+        height: 200px;
+        background-size: 1000px;
+    }
+    .service {
+        width: 800px;
+        height: 450px;
+    }
+    .pre {
+        font-size: x-large;
+    }
+    .card {
+        margin: 30px 7px;
+        width: 160px;
+        height: 330px;
+    }
+    .car{
+        background: url(photo/carmo.png) no-repeat left top;
+        background-size: 200px;
+    }
+    .car form {
+        width: 300px;
+        margin-top: 50px;
+        float: none;
+    }
+    .car p {
+        float: none;
+        width: 150px;
+    }
+    .sim {
+        background: url(photo/sim4.jpg) no-repeat left bottom;
+        background-size: 200px;
+    }
+    .content {
+        padding: 20px;
+        margin: auto;
+        width: 700px;
+    }
+    #con img {
+        float: none;
+        min-width: 90%;
+    }
+    #con img {
+        width: 250px;
+    }
+    .pfont {
+        font-size: small;
+    }
+}
+
+
+/*media query for mobiles and screen with max-with = 500*/
+@media screen and (max-width: 500px) {
+    .search-button {
+        width: 40px;
+        font-size: 10px;
+        height: 25px;
+    }
+    .search-input {
+        width: 120px;
+        height: 27px;
+    }
+    #div{
+        background-position: left top;
+        background-size: 150px;
+    }
+    .div1 {
+        height: 150px;
+        background-size: 800px;
+    }
+    .service {
+        width: 350px;
+        height: 500px;
+        padding: 30px;
+    }
+    #topic {
+        text-align: right;
+        width: 270px;
+    }
+    .cards {
+        width: 290px;
+    }
+    .card {
+        margin: 30px 8x;
+        width: 130px;
+        height: 230px;
+    }
+    .pre {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .car {
+        background-position: left top;
+        height: 400px;
+    }
+    .sim{
+        background-position: left;
+        background-size: 150px;
+        height: 370px;
+        padding-top: 0;
+    }
+    .pfont {
+        font-size: small;
+    }
+    .content {
+        padding: 20px;
+        margin: auto;
+        width: 350px;
+    }
+    #con img {
+        width: 150px;
+        height: 200px;
+    }
+    .login-div {
+        direction: rtl;
+        height: auto;
+        width: 370px;
+        position: relative;
+    }
+}

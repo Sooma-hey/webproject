@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--this is car service page-->
+<body>
+    <header class="head"><!--include navbar & header menu-->
+        <a href="log.html" class="hesab" style="padding-left: 10px;">حساب کاربری</a>
+        <form><!--search task-->
+            <input type="text" class="search-input">
+            <button type="submit" class="search-button">جستجو</button>
+        </form>
+        <div class="navbar">
+            <nav>
+                <ul class="list"><!--navbar for pc & tablet-->
+                    <li class="li"><a href="index.html" class="hesab">صفحه اصلی</a></li>
+                    <li class="li"><a href="#" class="hesab" style="text-shadow: 1px 1px 5px blue;">خدمات </a></li>
+                    <li class="li"><a href="#" class="hesab">تماس با ما </a></li>
+                    <li class="li"><a href="#" class="hesab">درباره ما </a></li>
+                </ul>
+                <div class="drop"><!--dropdown list for mobile-->
+                    <img src="photo/dropicon.png" alt="" width="35px" height="30px" style="margin-top: 10px">
+                    <div class="drop-icon">
+                        <a href="index.html" class="hesab">صفحه اصلی</a>
+                        <a href="#" class="hesab">خدمات </a>
+                        <a href="#" class="hesab">تماس با ما </a>
+                        <a href="#" class="hesab">درباره ما </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="div1"></div><!--header image-->
+    <main>
+        <div class="pfont , car , service"><!--this element take the whole car services-->
+            <p class="pre"> استعلام جریمه و عوارض</p><!--header paragraph / car service-->
+            <br>
+            <form action="#"><!--label and input that take car info-->
+                <label for="text"> شماره بارکد کارت خودرو را وارد کنید:</label>
+                <input type="text" class="input-form">
+                <br><br><br><br>
+                <label for="text"> پلاک خودرو را وارد کنید:</label>
+                <input type="text" name="" class="input-form">
+                <br><br><br>
+                <button type="submit" class="button-est , pfont">استعلام </button><!--submit button-->
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
