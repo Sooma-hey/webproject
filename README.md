@@ -2,6 +2,10 @@
 
 This is a simple, static website created to demonstrate my skills in HTML and CSS. The project includes a homepage and a couple of service pages, along with a Sign-Up and Login page for user authentication. It showcases basic web features such as navigation, forms, and layout design. 
 
+## Live Preview  
+Explore the website here: [My Website](https://sooma-hey.github.io/webproject/)
+
+
 ## Pages
 
 ### 1. `index.html` - Main Page
