@@ -58,10 +58,6 @@ The DFD Level 1 shows the detailed flow of data within the main modules of the w
 
 ![DFD Level 1](DFD1.jpg)  <!-- Replace with your DFD Level 1 image file -->
 
-## Glossary
-- **Clients**: The individuals who use the services provided by the website. They can register, log in, and use the services.
-- **Services**: The different offerings available on the website, including banking, telecommunication, and police services.
-- **Transactions**: The actions where users perform payments, recharge, or pay fines.
 
 ## License
 Feel free to use or modify this code.
