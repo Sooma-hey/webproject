@@ -64,4 +64,5 @@ The DFD Level 1 shows the detailed flow of data within the main modules of the w
 
 
 ## License
-Feel free to use or modify this code.
+
+This project is licensed under the Apache License 2.0 License - see the [LICENSE](LICENSE) file for details.
